@@ -31,6 +31,10 @@ builds:
   build_dependencies: ['gcc', 'make']
   <<: *rpm
 
+- distro: 'fedora_39'
+  build_dependencies: ['gcc', 'make']
+  <<: *rpm
+
 - distro: 'debian_bullseye'
   build_dependencies: ['gcc', 'make']
   <<: *deb
