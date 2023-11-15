@@ -50,3 +50,7 @@ builds:
 - distro: 'ubuntu_23.04'
   build_dependencies: ['gcc', 'make']
   <<: *deb
+
+- distro: 'mageia_8'
+  build_dependencies: ['gcc', 'make']
+  <<: *rpm
