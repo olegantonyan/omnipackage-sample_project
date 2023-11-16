@@ -66,3 +66,11 @@ builds:
 - distro: 'almalinux_9'
   build_dependencies: ['gcc', 'make']
   <<: *rpm
+
+- distro: 'rockylinux_9'
+  build_dependencies: ['gcc', 'make']
+  <<: *rpm
+
+- distro: 'rockylinux_9'
+  build_dependencies: ['gcc', 'make']
+  <<: *rpm
