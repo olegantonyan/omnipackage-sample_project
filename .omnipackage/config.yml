@@ -39,6 +39,14 @@ builds:
   build_dependencies: ['gcc', 'make']
   <<: *deb
 
+- distro: 'debian_buster'
+  build_dependencies: ['gcc', 'make']
+  <<: *deb
+
+- distro: 'debian_bookworm'
+  build_dependencies: ['gcc', 'make']
+  <<: *deb
+
 - distro: 'ubuntu_22.04'
   build_dependencies: ['gcc', 'make']
   <<: *deb
