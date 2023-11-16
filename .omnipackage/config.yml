@@ -67,7 +67,7 @@ builds:
   build_dependencies: ['gcc', 'make']
   <<: *rpm
 
-- distro: 'rockylinux_9'
+- distro: 'rockylinux_8'
   build_dependencies: ['gcc', 'make']
   <<: *rpm
 
