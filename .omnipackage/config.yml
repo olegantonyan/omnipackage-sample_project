@@ -58,3 +58,11 @@ builds:
 - distro: 'mageia_cauldron'
   build_dependencies: ['gcc', 'make']
   <<: *rpm
+
+- distro: 'almalinux_8'
+  build_dependencies: ['gcc', 'make']
+  <<: *rpm
+
+- distro: 'almalinux_9'
+  build_dependencies: ['gcc', 'make']
+  <<: *rpm
